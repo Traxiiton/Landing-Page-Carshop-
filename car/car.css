@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Oswald', sans-serif;
+    background-color: crimson;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+span {
+    color: crimson;
+}
+
+nav{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    color: white;
+    background-color: rgba(31, 30, 30, 0.466);
+}
+
+
+.container{ 
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.fa-solid {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+}
+
+.nav-title {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.nav-list ul,li{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    margin-top: -40px;
+    font-size: 1.2em;
+    align-items: flex-end;
+}
+
+.nav-list a {
+    color: white;
+    border: 1px solid crimson;
+    margin: 10px 30px 10px 0px;
+    transition: .3s ease-in-out;
+}
+
+.nav-list a:hover{
+    color: black;
+    background-color: crimson;
+    box-shadow: crimson 0px 3px 60px;
+    border: white 2px solid;
+}
+
+
+#landing {
+    background-image: url(./img/gtr2.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+#landing .container {
+    color: white;
+    max-width: 1200px;
+    margin-left: 600px;
+	justify-content:right;
+    letter-spacing: 1px;
+}
+
+.lading h1 {
+    display: block;
+    width: fit-content;
+    font-size: 3em;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+.lading h2 {
+    display: block;
+    width: fit-content;
+    font-size: 1.8em;
+    
+}
+
+.lading a{ 
+    border: 2px solid crimson;
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.lading a:hover {
+    color: black;
+    background-color: crimson;
+    box-shadow: crimson 0px 10px 60px;
+    border: white 2px solid;
+}
+
+#footer {
+    background-color: crimson;
+    
+}
+
+#footer .footer{ 
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer .social-item li,ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    margin-top: -10px;
+    font-size: 1.2em;
+    justify-content: center;
+    
+
+}
+
+.social-item p{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+
+    
+}
+
